@@ -1,0 +1,16 @@
+[package]
+name = "my_fusefs"
+version = "0.1.0"
+authors = ["judadeguang"]
+edition = "2018"
+
+build = "build.rs"
+
+[dependencies]
+fuse = "0.3"
+libc = "0.2"
+time = "0.1"
+env_logger = "0.6.1"
+
+[build-dependencies]
+cc = "1.0"
